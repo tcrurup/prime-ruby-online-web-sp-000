@@ -7,7 +7,7 @@
 
 
 def prime?(number)
-  if number > 0 
+  if number > 1 
     number_range = (2..number-1).to_a
     number_range.detect{ |test_number| number % test_number == 0} ? false : true
   else
