@@ -6,7 +6,7 @@
 
 
 
-def prime(number)
+def prime?(number)
   number_range = (2..number-1).to_a
   number_range.detect{ |test_number| number % test_number == 0} ? true : false
 end
