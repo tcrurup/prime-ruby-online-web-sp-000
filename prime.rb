@@ -3,6 +3,7 @@
 #by itself and one, I only want the numbers in between
 #Since we've eliminated the only numbers that it can be divided by, we can just test
 #and see if any numbers divide cleanly.  If so, then the number is NOT prime
+#Also checks that number is above 1
 
 
 
